@@ -49,5 +49,5 @@ After some research, I decided to switch to Mastra. I had previously come across
 
 These features made it much simpler and faster to implement the agent for this task.
 
-If I were working with a larger set of tools and a more specialized workflow, I might still choose LangGraph with Python for more granular control. But for this project, Mastra was the better choice: it provided a straightforward user interface, memory, and tool integration out of the box, which allowed me to focus on the core functionality instead of boilerplate setup.
+If I were working with a larger set of tools and a more specialized workflow, I might still choose LangGraph with Python for more granular control. But for this project, Mastra was the better choice given the framework support and boilerplates.
 
