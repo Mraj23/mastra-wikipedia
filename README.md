@@ -9,7 +9,7 @@ A minimal conversational agent that answers materials science questions using Wi
 
 ## Setup
 
-1. Install dependencies:
+1. Clone repo and Install dependencies:
 
 ```bash
 npm install
@@ -33,7 +33,6 @@ export ANTHROPIC_API_KEY=your_key_here
 - Tool: `src/mastra/tools/wikipedia-tool.ts`
   - Input: `{ query: string, maxArticles?: number }`
   - Returns: `{ usedQuery, articles: [{ title, url, content }] }`
-- Runtime wiring: `src/mastra/index.ts` registers the agent.
 - Storage: Agent memory persists to memory, has a working memory module to summarize wikipedia artciles
 
 ## Rationale
