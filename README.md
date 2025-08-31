@@ -43,7 +43,7 @@ export ANTHROPIC_API_KEY=your_key_here
 
 ### Framework Choice
 
-I initially started building this agent with LangGraph in Python. However, I quickly realized that I would need to implement many things from scratch - such as multi-turn conversations, memory, and a user interface. The agent graph also became more complex than I anticipated. My WIP LangGraph agent can be found at this github link: 
+I initially started building this agent with LangGraph in Python. However, I quickly realized that I would need to implement many things from scratch - such as multi-turn conversations, memory, and a user interface. The agent graph also became more complex than I anticipated.
 
 After some research, I decided to switch to Mastra. I had previously come across it in the book 'Principles of Building AI Agents' (written by the creators of Mastra) and thought it might be a good fit given the constraints of this task and the focus on usability over complex features. Mastra provides:
 
