@@ -30,9 +30,12 @@ export ANTHROPIC_API_KEY=your_key_here
   - Uses Anthropic Claude 3.5 Sonnet via `@ai-sdk/anthropic`.
   - Uses `wikipedia-search` tool to fetch up to 3 relevant articles.
   - Always cites exact Wikipedia URLs inline and in a References section.
-- Tool: `src/mastra/tools/wikipedia-tool.ts`
+- Tool 1: `src/mastra/tools/wikipedia-tool.ts`
   - Input: `{ query: string, maxArticles?: number }`
   - Returns: `{ usedQuery, articles: [{ title, url, content }] }`
+- Tool 2: Working Memory
+  - Input: Conversation History
+  - Returns: Summaries of wikipedia articles to prevent re-fetching of articles
 - Runtime wiring: `src/mastra/index.ts` registers the agent.
 - Storage: Agent memory persists to memory, has a working memory module to summarize wikipedia artciles
 
